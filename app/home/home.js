@@ -47,19 +47,6 @@
 
         });
 
-//Portfolio Modal
-        $('.open-project').on('click', function () {
-            var projectUrl = $(this).attr("href");
-
-            var project = '<div class="modal fade" id="project-modal"><div class="inline-menu-container"><a id="modal-close" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></a></div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
-
-            $(project).modal({
-                remote: projectUrl + ' #project'
-            })
-
-            return false;
-
-        });
 
 //On Click Open Menu Items
         $('.menu-item').on('click', function () {

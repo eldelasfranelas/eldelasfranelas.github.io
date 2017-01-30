@@ -10,11 +10,11 @@ angular
                 controller: 'home',
                 controllerAs: 'vm'
             })
-            // .when('/resume', {
-            //     templateUrl: 'app/resume/resume.html',
-            //     controller: 'resume',
-            //     controllerAs: 'vm'
-            // })
+            .when('/resume', {
+                templateUrl: 'app/resume/resume.html',
+                controller: 'resume',
+                controllerAs: 'vm'
+            })
             // .when('/portafolio', {
             //     templateUrl: 'app/portafolio/portafolio.html',
             //     controller: 'portafolio',
