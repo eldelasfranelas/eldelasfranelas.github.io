@@ -1,2 +1,2 @@
-# juansimonperezjimenez.github.io
+# juansimon.github.io
 Desarrollador Web
