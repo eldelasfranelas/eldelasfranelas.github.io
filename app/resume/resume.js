@@ -13,7 +13,7 @@
     /* @ngInject */
     function resume() {
         var vm = this;
-        vm.title = 'ControllerName';
+        vm.title = 'resume';
         console.log(vm.title);
     }
 

@@ -17,6 +17,9 @@
         /*** Funciones DOM***/
 
 
+
+
+        
         /*** Funciones JQUERY del TEMPLATE***/
         $(window).load(function () {
             $(".preloader").fadeOut("slow", function () {
